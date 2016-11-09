@@ -1,12 +1,72 @@
 // GLOBAL =============================
 body {
-  font-family: 'Proxima Nova';
+  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Apex New', Arial, Helvetica, sans-serif;;
+  font-style: italic;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-// NAVBAR =============================
+// HEADER =============================
 .header {
   background: url('../img/blog-header.jpg');
   min-height: 688px;
+}
+.header-content {
+  color: white;
+
+  .logo {
+    margin-top: 50px;
+  }
+
+  .find-your-village {
+    -webkit-transition: height .2s ease-in-out;
+    -moz-transition: height .2s ease-in-out;
+    -ms-transition: height .2s ease-in-out;
+    -o-transition: height .2s ease-in-out;
+    transition: height .2s ease-in-out;
+    background-color: #38434f;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    height: 48px;
+    overflow: hidden;
+    position: fixed;
+    right: 30px;
+    top: 0;
+    width: 196px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bold;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 150px;
+    text-align: center;
+  }
+  ul {
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      padding-right: 30px;
+      font-size: 24px;
+
+      &:nth-child(5) {
+        padding-right: 0px;
+      }
+    }
+  }
 }
 
 // MAIN BLOG PAGE =====================
@@ -107,9 +167,6 @@ footer {
     color: rgba(255, 255, 255, .5);;
   }
 
-  ul {
-    list-style: none;
-  }
   li {
     display: inline-block;
 
