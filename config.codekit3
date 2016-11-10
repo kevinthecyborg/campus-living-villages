@@ -115,6 +115,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/video-play-button.png": {
+		"ft": 32768,
+		"iS": 2000,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video-play-button.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/js\/bootstrap.js": {
 		"ft": 64,
 		"mi": 1,
