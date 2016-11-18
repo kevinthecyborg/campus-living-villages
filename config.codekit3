@@ -218,6 +218,12 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/blog-post.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog-post.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
