@@ -59,11 +59,35 @@
 		"oAP": "\/assets\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
+	"\/assets\/img\/author-thumbnail.png": {
+		"ft": 32768,
+		"iS": 21264,
+		"oA": 0,
+		"oAP": "\/assets\/img\/author-thumbnail.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/blog-header.jpg": {
 		"ft": 16384,
 		"iS": 143423,
 		"oA": 0,
 		"oAP": "\/assets\/img\/blog-header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/blog-post-img.jpg": {
+		"ft": 16384,
+		"iS": 75206,
+		"oA": 0,
+		"oAP": "\/assets\/img\/blog-post-img.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/blog-post-video.jpg": {
+		"ft": 16384,
+		"iS": 110457,
+		"oA": 0,
+		"oAP": "\/assets\/img\/blog-post-video.jpg",
 		"oF": 0,
 		"opt": 0
 		},

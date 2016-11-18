@@ -5,6 +5,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Apex New', Arial, Helvetica, sans-serif;
   font-style: italic;
+  font-weight: 700;
 }
 ul {
   list-style: none;
@@ -250,7 +251,57 @@ footer {
 
     h1 {
       font-size: 60px;
-      padding-top: 100px;
+      padding-top: 85px;
+    }
+  }
+  .header-sub-info {
+    text-align: center;
+    margin-top: 35px;
+
+    span {
+      margin-left: 30px;
+      font-style: italic;
+      font-size: 18px;
+    }
+  }
+}
+.blog-post {
+  margin-top: 60px;
+
+  h2.post-title {
+    font-size: 34px;
+    color: #384450;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  h3.sub-title {
+    color: #00b4d1;
+    margin-top: 50px;
+  }
+  .img-blog-post {
+    margin-top: 40px;
+  }
+  hr.hr-author {
+    border-top: 1px solid #c8cbd2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .author-thumbnail {
+    border-radius: 80px;
+    box-shadow:
+      0 0 0 3px #46c9c3,
+      0 0 0 8px #fff,
+      0 0 0 11px #46c9c3;
+  }
+  .author-info {
+
+    p.about-author {
+      color: #46c9c3;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
     }
   }
 }
@@ -472,7 +523,16 @@ footer {
 .angle:before, .button.bg-transparent .angle:before, .bg-transparent.button-left .angle:before, .button.bg-transparent .angle:after, .bg-transparent.button-left .angle:after {
   background-color: #38434f;
 }
-
+.btn-square {
+  border-radius: 0;
+  padding: 3px 45px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.btn-green {
+  background: #a6ce39;
+  color: white;
+}
 
 
 // COLORS =============================
