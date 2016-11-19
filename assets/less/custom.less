@@ -285,6 +285,24 @@ footer {
     margin-top: 40px;
   }
   .quote {
+    p {
+      color: #00b4d1;
+      font-size: 50px;
+      text-align: center;
+      padding: 0 50px;
+      position: relative;
+
+      &:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        vertical-align: -0.4em;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+      }
+    }
     hr {
       border-top: 1px solid #c8cbd2;
 
